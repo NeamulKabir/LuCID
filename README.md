@@ -5,7 +5,7 @@ LuCID: LongitUdinal Cancer risk prediction In Diabetes using data-centric artifi
 To execute the code, we use the data file with all available laboratory measurements, their corresponding reference dates, cancer label, cancer incidence date along with demographic information age, sex (as numerical 0: female, 1: male), BMI, alcohol habit, smoking habit and unique reference key for each patient. In separate file, we have date of birth of each patient tagged with reference key which we use to calculate age and in another file we have ICD9 diagnosis code of each patient tagged with reference key which we use to identify individual cancers.
 Below are the column names of the data file that we use to process and train our model using the available code in this repo:
 | Reference Key | AGE | SEX | BMI | ALC | SMOKING | CANCER | CANCER_DATE | 
-| HBA1C | HBA1C_dates | 
+| HBA1C | HBA1C_dates | HB | HB_dates | WBC | WBC_dates | RBC | RBC_dates |
 
 ## Steps to execute the code
 
