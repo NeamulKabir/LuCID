@@ -6,7 +6,11 @@ To execute the code, we use the data file with all available laboratory measurem
 Below are the column names of the data file that we use to process and train our model using the available code in this repo:
 | Reference Key | AGE | SEX | BMI | ALC | SMOKING | CANCER | CANCER_DATE | 
 | :----------- | :------------: | ------------: | :----------- | :------------: | ------------: |:------------: | ------------: |
-| HBA1C | HBA1C_dates | HB | HB_dates | WBC | WBC_dates | RBC | RBC_dates |
+| HBA1C | HBA1C_dates | ALT | ALT_dates | ALP | ALP_dates | GLU(FASTING) | GLU(FASTING)_dates |
+| SODIUM | SODIUM_dates | POTASSIUM | POTASSIUM_dates | CREATININE | CREATININE_dates | UREA | UREA_dates |
+| CHOLESTEROL | CHOLESTEROL_dates | HDL | HDL_dates | TRIG | TRIG_dates | LDL | LDL_dates |
+| PROTEIN | PROTEIN_dates | ALBUMIN | ALBUMIN_dates | BILIRUBIN | BILIRUBIN_dates | ... |
+
 
 ## Steps to execute the code
 
